@@ -1,0 +1,7 @@
+---
+
+- name: install git
+  yum: name=git state=present
+
+- name: Install unzip
+  yum: name=unzip
