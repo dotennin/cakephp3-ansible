@@ -1,10 +1,10 @@
 # cakephp3-ansible for centos
 
-###step1:
+### step1:
 ```
 chmod +x provision.sh
 ```
-###step2:
+### step2:
 ```
 ./provision.sh
 ```
