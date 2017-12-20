@@ -2,8 +2,8 @@
 - hosts: all
   become: yes
   roles:
-  #  - init
-  #  - php7
+    - init
+    - php7
     - mysql
-  #  - cakephp
-  #  - apache
+    - cakephp
+    - apache
