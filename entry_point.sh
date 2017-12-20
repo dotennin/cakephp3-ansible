@@ -2,6 +2,6 @@
 #set -e
  
 echo "Running Ansible"
-bash -c "ansible-playbook /ansible/playbook.yml --inventory-file=/ansible/hosts --connection=local"
+bash -c "ansible-playbook $1/playbook.yml --inventory-file=$1/hosts --connection=local"
 
 exec "$@"
