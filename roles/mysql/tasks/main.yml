@@ -1,9 +1,9 @@
 ---
 - name: Add mysql56 repo
-  yum: name=http://dev.mysql.com/get/mysql57-community-release-el7-7.noarch.rpm
+  yum: name=http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 
 - name: Install MySQL
-  yum: pkg={{ item }} state=present enablerepo=mysql57-community
+  yum: pkg={{ item }} state=present enablerepo=mysql56-community
   with_items:
     - MySQL-python
     - mysql-community-server
